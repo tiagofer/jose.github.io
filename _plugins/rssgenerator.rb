@@ -39,10 +39,10 @@ module Jekyll
 
       # Create the rss with the help of the RSS module
       rss = RSS::Maker.make("2.0") do |maker|
-        maker.channel.title = site.config['name']
-        maker.channel.link = site.config['url']
-        maker.channel.description = site.config['description'] || "RSS feed for #{site.config['name']}"
-        maker.channel.author = site.config["author"]
+        maker.channel.title = site.config['Level One']
+        maker.channel.link = site.config['http://tiagofer.github.io/']
+        maker.channel.description = site.config['Registro das minhas experiências iniciais no desenvolvimento de jogos'] || "RSS feed for #{site.config['Level One']}"
+        maker.channel.author = site.config["Tiago"]
         maker.channel.updated = site.posts.map { |p| p.date  }.max
         maker.channel.copyright = site.config['copyright']
 
