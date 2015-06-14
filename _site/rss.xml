@@ -1,36 +1,54 @@
----
-layout: post
-title: Projeto Xamã
-date: 2015-06-12 21:35:00
----
-
-<p>
-  <h3>Introdução</h3>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Level One</title>
+    <link>http://tiagofer.github.io/</link>
+    <description>Registro das minhas experiências iniciais no desenvolvimento de jogos</description>
+    <pubDate>Fri, 12 Jun 2015 18:35:00 -0300</pubDate>
+    <item>
+      <title>Projeto Xamã</title>
+      <link>http://tiagofer.github.io//2015/06/12/Projeto-Xama.html</link>
+      <description>&lt;p&gt;
+  &lt;h3&gt;Introdução&lt;/h3&gt;
   Este é um jogo que foi desenvolvido inicialmente para participação de uma GameJam. Devido ao nosso pouco conhecimento em Unity e
-  na criação de jogos, obviamente o jogo não ficou pronto em 48 horas. Porém para servir como aprendizado e por "questão de honra"resolvi
+  na criação de jogos, obviamente o jogo não ficou pronto em 48 horas. Porém para servir como aprendizado e por &quot;questão de honra&quot;resolvi
   finaliza-lo e utilizar esta experiência como um laboratório. Desta forma as dificuldades encontradas durante o desenvolvimento serão descritas aqui.
-</p>
-<p>
-  <h3>História</h3>
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;h3&gt;História&lt;/h3&gt;
   O jogo é baseado no cacique Tapajós que precisa salvar o Brasil, que segundo relatório do Milésimo Encontro dos Caciques
   Que Fazem Dança da Chuva, terá sua população dizimada devido à falta de água. Os países vizinhos fecharam suas portas para a população
   brasileira depois dos inúmeros casos de corrupção no país. Resta ao cacique Tapajós, utilizar sua sabedoria indígena
   para salvar o Brasil deste apocalipse.
-</p>
-<p>
-  <h3>Gameplay</h3>
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;h3&gt;Gameplay&lt;/h3&gt;
   O gameplay consiste em identificar as regiões que estão ficando sem água e clicar nelas para realizar a sequência de
   movimentos apresentada para fazer chover na região. Em cada sequência completada de maneira correta o jogador aumentará sua
   capacidade de produção de chuva, acumulará pontos e suprirá a demanda da região numa razão a ser definida. O jogador terá
   de tomar decisões sobre quais regiões salvar primeiro. Para vencer o jogador deverá manter o nível de água das regiões estável
   até o fim do período de estiagem.
-</p>
-<p>
-  <h3>Level Design</h3>
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;h3&gt;Level Design&lt;/h3&gt;
   O jogo terá o mapa do Brasil como pano de fundo, sendo obedecida sua divisão em regiões: norte, nordeste, centro-oeste,
   sul e sudeste. Na tela o jogador terá visualização de itens como:
   Tempo restante para o apocalipse;
   capacidade de chuva;
   Total de Pontos.
   Serão exibidos também os alertas sobre a condição das regiões e solicitações de chuva. O jogo terá também uma tela de Highscore, tela de início e tela de Game Over.
-</p>
+&lt;/p&gt;
+</description>
+      <pubDate>Fri, 12 Jun 2015 18:35:00 -0300</pubDate>
+      <dc:date>2015-06-12T18:35:00-03:00</dc:date>
+    </item>
+    <dc:date>2015-06-12T18:35:00-03:00</dc:date>
+  </channel>
+</rss>
