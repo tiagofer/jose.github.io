@@ -8,14 +8,75 @@
     <title>Level One</title>
     <link>http://tiagofer.github.io/</link>
     <description>Registro das minhas experiências iniciais no desenvolvimento de jogos</description>
-    <pubDate>Fri, 12 Jun 2015 18:35:00 -0300</pubDate>
+    <pubDate>Tue, 30 Jun 2015 18:12:00 -0300</pubDate>
+    <item>
+      <title>O Fim do Xamã</title>
+      <link>http://tiagofer.github.io//2015/06/30/O-Fim-do-Xama.html</link>
+      <description>&lt;p&gt;
+  Após alguns meses desenvolvendo o Xamã, resolvi tomar ele como encerrado,
+  mesmo sabendo que muito mais poderia ser feito. 
+  &lt;!--more--&gt;
+  Tal decisão foi tomada pois
+  pretendo iniciar um novo projeto de jogo (que em breve terá uma série de posts)
+  bem maior, mais sólido e mais ambicioso também. Com o desenvolvimento do jogo
+  consegui ter contato com uma série de conceitos básicos da Unity, que fui
+  aprendendo aos poucos e aplicando no jogo, não sei se da maneira correta,
+  mais que foram fazendo o  Xamã evoluir. Desta forma farei uma série de posts
+  relatando estes aprendizados, anexando os códigos utilizados bem como as
+  fontes consultadas. Ao final desta série, todo o jogo estará documentado
+  servindo como referência para os iniciantes como eu.
+  Abaixo listarei as funcionalidades que pretendia implementar no Xamã e que
+  optei por não colocar devido ao encerramento do projeto:
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Melhoria em toda parte gráfica do jogo – os sprites que não foram
+      coletados na “Asset Store” foram pegos na internet afora, e alguns foram
+      feitos por mim. Por não ser um exímio artista o resultado não foi
+      satisfatório, desta forma muita coisa precisaria ser melhorado na
+      interface do jogo;&lt;/li&gt;
+    &lt;li&gt;Áudio – o jogo conta somente com um arquivo de áudio obtido gratuitamente
+      na internet que é executado no decorrer do jogo, não tive nenhuma
+      preocupação em tratar esta parte;&lt;/li&gt;
+    &lt;li&gt;padronização dos nomes de objetos utilizados no jogo – esta parte comecei bem, porém me perdi um pouco no meio do projeto precisaria melhorar isto também;&lt;/li&gt;
+    &lt;li&gt;fazer com que o Xamã se movimentasse conforme a sequência fosse sendo executada;&lt;/li&gt;
+    &lt;li&gt;criar uma animação no momento da exibição da sequência que deveria ser executada;&lt;/li&gt;
+    &lt;li&gt;criar eventos aleatórios que aumentassem o consumo de água nas regiões Sul e Centro-Oeste;&lt;/li&gt;
+    &lt;li&gt;substituir as setas por instrumentos indígenas (ou notas musicais);&lt;/li&gt;
+    &lt;li&gt;trocar o método de entrada da sequência, substituindo o número de toques por um tempo pré -definido para execução da sequência;&lt;/li&gt;
+    &lt;li&gt;criar a tela de highscore;&lt;/li&gt;
+    &lt;li&gt;implementar os eventos para utilização em android (até fiz isto, porém tirei).&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    Estes são os pontos principais que tinha em mente para este projeto e que
+    talvez vá fazendo com o passar do tempo.
+    Apesar de bem simples, este projeto serviu para internalizar conceitos
+    muito importantes da Unity, como: utilização de prefabs, conceitos de
+    orientação a objetos na Unity (herança, encapsulamento), utilização do
+    Component Canvas para gerar elementos de GUI na tela, criação de menus, etc,
+    utilização de Coroutines (ainda não sei se eu realmente aprendi isto,
+    mais estou no caminho) para controlar o fluxo do jogo, importar animações
+    feitas no software Spriter2D para a Unity e manipulação de animações.
+    Tive contato com outros conteúdos durante o projeto porém não consegui
+    assimilar muito bem o conteúdo, são eles: criação de novas funcionalidades
+    para a Unity por meio de scripts adicionados em Assets/Editors, utilização
+    de ObjectPool para não precisar ficar instanciando e destruindo objetos no fluxo do jogo.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 30 Jun 2015 18:12:00 -0300</pubDate>
+      <dc:date>2015-06-30T18:12:00-03:00</dc:date>
+    </item>
     <item>
       <title>Projeto Xamã</title>
       <link>http://tiagofer.github.io//2015/06/12/Projeto-Xama.html</link>
       <description>&lt;p&gt;
   &lt;h3&gt;Introdução&lt;/h3&gt;
   Este é um jogo que foi desenvolvido inicialmente para participação de uma GameJam. Devido ao nosso pouco conhecimento em Unity e
-  na criação de jogos, obviamente o jogo não ficou pronto em 48 horas. Porém para servir como aprendizado e por &quot;questão de honra&quot;resolvi
+  na criação de jogos,
+  &lt;!--more--&gt;
+  obviamente o jogo não ficou pronto em 48 horas. Porém para servir como aprendizado e por &quot;questão de honra&quot;resolvi
   finaliza-lo e utilizar esta experiência como um laboratório. Desta forma as dificuldades encontradas durante o desenvolvimento serão descritas aqui.
 &lt;/p&gt;
 
@@ -49,6 +110,6 @@
       <pubDate>Fri, 12 Jun 2015 18:35:00 -0300</pubDate>
       <dc:date>2015-06-12T18:35:00-03:00</dc:date>
     </item>
-    <dc:date>2015-06-12T18:35:00-03:00</dc:date>
+    <dc:date>2015-06-30T18:12:00-03:00</dc:date>
   </channel>
 </rss>

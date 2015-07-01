@@ -11,6 +11,7 @@ domain_name: 'tiagofer.github.io'
 google_analytics: 'UA-64676938-1'
 destination: tiagofer.github.io
 url: http://tiagofer.github.io/
+excerpt_separator: <!--more-->
 
 # Details for the RSS feed generator
 url:            'http://tiagofer.github.io/'

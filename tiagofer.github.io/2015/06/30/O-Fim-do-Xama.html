@@ -31,9 +31,9 @@
     <article class="post">
 
         <header class="post-header">
-            <h1 class="post-title">Projeto Xamã</h1>
+            <h1 class="post-title">O Fim do Xamã</h1>
             <section class="post-meta">
-                <time class="post-date" datetime="2015-06-12">12 Jun 2015</time>
+                <time class="post-date" datetime="2015-06-30">30 Jun 2015</time>
                 
             </section>
         </header>
@@ -47,44 +47,65 @@
         </header> -->
 
         <!-- <span class="post-meta">
-            <time datetime="2015-06-12">12 Jun 2015</time>
+            <time datetime="2015-06-30">30 Jun 2015</time>
             
         </span> -->
 
-        <!-- <h1 class="post-title">Projeto Xamã</h1> -->
+        <!-- <h1 class="post-title">O Fim do Xamã</h1> -->
 
         <section class="post-content">
             <p>
-  <h3>Introdução</h3>
-  Este é um jogo que foi desenvolvido inicialmente para participação de uma GameJam. Devido ao nosso pouco conhecimento em Unity e
-  na criação de jogos,
+  Após alguns meses desenvolvendo o Xamã, resolvi tomar ele como encerrado,
+  mesmo sabendo que muito mais poderia ser feito. 
   <!--more-->
-  obviamente o jogo não ficou pronto em 48 horas. Porém para servir como aprendizado e por "questão de honra"resolvi
-  finaliza-lo e utilizar esta experiência como um laboratório. Desta forma as dificuldades encontradas durante o desenvolvimento serão descritas aqui.
+  Tal decisão foi tomada pois
+  pretendo iniciar um novo projeto de jogo (que em breve terá uma série de posts)
+  bem maior, mais sólido e mais ambicioso também. Com o desenvolvimento do jogo
+  consegui ter contato com uma série de conceitos básicos da Unity, que fui
+  aprendendo aos poucos e aplicando no jogo, não sei se da maneira correta,
+  mais que foram fazendo o  Xamã evoluir. Desta forma farei uma série de posts
+  relatando estes aprendizados, anexando os códigos utilizados bem como as
+  fontes consultadas. Ao final desta série, todo o jogo estará documentado
+  servindo como referência para os iniciantes como eu.
+  Abaixo listarei as funcionalidades que pretendia implementar no Xamã e que
+  optei por não colocar devido ao encerramento do projeto:
 </p>
 <p>
-  <h3>História</h3>
-  O jogo é baseado no cacique Tapajós que precisa salvar o Brasil, que segundo relatório do Milésimo Encontro dos Caciques
-  Que Fazem Dança da Chuva, terá sua população dizimada devido à falta de água. Os países vizinhos fecharam suas portas para a população
-  brasileira depois dos inúmeros casos de corrupção no país. Resta ao cacique Tapajós, utilizar sua sabedoria indígena
-  para salvar o Brasil deste apocalipse.
+  <ul>
+    <li>Melhoria em toda parte gráfica do jogo – os sprites que não foram
+      coletados na “Asset Store” foram pegos na internet afora, e alguns foram
+      feitos por mim. Por não ser um exímio artista o resultado não foi
+      satisfatório, desta forma muita coisa precisaria ser melhorado na
+      interface do jogo;</li>
+    <li>Áudio – o jogo conta somente com um arquivo de áudio obtido gratuitamente
+      na internet que é executado no decorrer do jogo, não tive nenhuma
+      preocupação em tratar esta parte;</li>
+    <li>padronização dos nomes de objetos utilizados no jogo – esta parte comecei bem, porém me perdi um pouco no meio do projeto precisaria melhorar isto também;</li>
+    <li>fazer com que o Xamã se movimentasse conforme a sequência fosse sendo executada;</li>
+    <li>criar uma animação no momento da exibição da sequência que deveria ser executada;</li>
+    <li>criar eventos aleatórios que aumentassem o consumo de água nas regiões Sul e Centro-Oeste;</li>
+    <li>substituir as setas por instrumentos indígenas (ou notas musicais);</li>
+    <li>trocar o método de entrada da sequência, substituindo o número de toques por um tempo pré -definido para execução da sequência;</li>
+    <li>criar a tela de highscore;</li>
+    <li>implementar os eventos para utilização em android (até fiz isto, porém tirei).</li>
+  </ul>
 </p>
 <p>
-  <h3>Gameplay</h3>
-  O gameplay consiste em identificar as regiões que estão ficando sem água e clicar nelas para realizar a sequência de
-  movimentos apresentada para fazer chover na região. Em cada sequência completada de maneira correta o jogador aumentará sua
-  capacidade de produção de chuva, acumulará pontos e suprirá a demanda da região numa razão a ser definida. O jogador terá
-  de tomar decisões sobre quais regiões salvar primeiro. Para vencer o jogador deverá manter o nível de água das regiões estável
-  até o fim do período de estiagem.
-</p>
-<p>
-  <h3>Level Design</h3>
-  O jogo terá o mapa do Brasil como pano de fundo, sendo obedecida sua divisão em regiões: norte, nordeste, centro-oeste,
-  sul e sudeste. Na tela o jogador terá visualização de itens como:
-  Tempo restante para o apocalipse;
-  capacidade de chuva;
-  Total de Pontos.
-  Serão exibidos também os alertas sobre a condição das regiões e solicitações de chuva. O jogo terá também uma tela de Highscore, tela de início e tela de Game Over.
+    Estes são os pontos principais que tinha em mente para este projeto e que
+    talvez vá fazendo com o passar do tempo.
+    Apesar de bem simples, este projeto serviu para internalizar conceitos
+    muito importantes da Unity, como: utilização de prefabs, conceitos de
+    orientação a objetos na Unity (herança, encapsulamento), utilização do
+    Component Canvas para gerar elementos de GUI na tela, criação de menus, etc,
+    utilização de Coroutines (ainda não sei se eu realmente aprendi isto,
+    mais estou no caminho) para controlar o fluxo do jogo, importar animações
+    feitas no software Spriter2D para a Unity e manipulação de animações.
+    Tive contato com outros conteúdos durante o projeto porém não consegui
+    assimilar muito bem o conteúdo, são eles: criação de novas funcionalidades
+    para a Unity por meio de scripts adicionados em Assets/Editors, utilização
+    de ObjectPool para não precisar ficar instanciando e destruindo objetos no fluxo do jogo.
+
+    Em meu próximo post farei o índice dos conteúdos que irei abordar no “Guia do Xamã”.
 </p>
 
         </section>
@@ -117,15 +138,15 @@
             <!-- Share links section -->
             <section class="share">
     <h4>Compartilhar</h4>
-    <a class="icon-twitter" href="http://twitter.com/share?text=Projeto Xamã&amp;url=http://tiagofer.github.io//2015/06/12/Projeto-Xama.html"
+    <a class="icon-twitter" href="http://twitter.com/share?text=O Fim do Xamã&amp;url=http://tiagofer.github.io//2015/06/30/O-Fim-do-Xama.html"
         onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
         <span class="hidden">Twitter</span>
     </a>
-    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://tiagofer.github.io//2015/06/12/Projeto-Xama.html"
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://tiagofer.github.io//2015/06/30/O-Fim-do-Xama.html"
         onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
         <span class="hidden">Facebook</span>
     </a>
-    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://tiagofer.github.io//2015/06/12/Projeto-Xama.html"
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://tiagofer.github.io//2015/06/30/O-Fim-do-Xama.html"
        onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
         <span class="hidden">Google+</span>
     </a>
