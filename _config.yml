@@ -8,7 +8,7 @@ logo: false
 paginate: 5
 baseurl: http://tiagofer.github.io/
 domain_name: 'tiagofer.github.io'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-64676938-1'
 destination: tiagofer.github.io
 url: http://tiagofer.github.io/
 
