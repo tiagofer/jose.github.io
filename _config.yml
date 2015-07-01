@@ -5,12 +5,12 @@ meta_description: "Registros sobre o desenvolvimento de games"
 markdown: redcarpet
 highlighter: pygments
 logo: false
-paginate: 15
-baseurl: http://tiagofer.github.io
+paginate: 5
+baseurl: http://tiagofer.github.io/
 domain_name: 'tiagofer.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 destination: tiagofer.github.io
-url: http://tiagofer.github.io
+url: http://tiagofer.github.io/
 
 # Details for the RSS feed generator
 url:            'http://tiagofer.github.io/'
