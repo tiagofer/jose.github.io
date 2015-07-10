@@ -1,0 +1,37 @@
+---
+layout: post
+title: Entendendo a Mecânica do Jogo
+date: 2015-06-30 21:12:00
+excerpt_separator: <!--more-->
+---
+<p>
+  A mecânica básica do jogo consiste no fato do jogador observar qual região
+  está com um volume de água mais baixo do que as demais e clicar na respectiva
+  região. <!--more-->Ao clicar é gerada uma sequência aleatória contendo quatro setas (cima, baixo,
+  esquerda, direita), após geradas o jogador deve clicar nas setas correspondentes
+  na ordem apresentada. Caso seja executada de forma correta a região na qual
+  o jogador clicou recebe um incremento de x em seu nível de água. O jogador vence
+  se conseguir manter o nível de água das regiões acima de zero e perde quando
+  o nível de água de qualquer região chegar a zero.
+</p>
+<p>
+  A escolha desta mecânica foi o fator crucial para o não término do jogo durante
+  a game jam. Dentre os muitos desafios desta implementação destaco os que mais
+  "fundiram" minha mente:
+  <ul>
+    <li>o fato de "só" clicar na região e ela gerar uma "simples sequência" consumiu
+    um bom tempo nosso durante o desenvovlimento do jogo. Resolvi este problema utilizando
+    tags para identificar as regiões e as lists para armazenar as sequências;</li>
+    <li>tivemos grande dificuldade em decrementar os níveis de água das regiões
+    e fazer com que cada uma trabalhasse com seus próprios índices. Resolvi isto com
+    herança.</li>
+    <li>não conseguiamos de jeito nenhum controlar o tempo de execução do jogo e de
+    outros elementos que deveriam aparecer e desaparecer da tela. Resolvi isto utilizando
+    coroutines.</li>
+  </ul>
+</p>
+<p>
+  Este post tratou basicamente da mecânica que foi utilizada no jogo, nos próximos
+  entrarei com alguns códigos que utilizei e começarei a disponibilizar alguns "lindos"
+  sprites que criei e outros que coletei por ai (todos opensource, :-)) para o jogo.
+</p>
